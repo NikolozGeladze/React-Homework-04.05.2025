@@ -1,0 +1,83 @@
+.details-card {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    min-height: 80vh;
+}
+
+.details-card img {
+    width: 500px;
+    object-fit: contain;
+}
+
+.item-details-part {
+    width: 60%;
+}
+
+.details-card .item-details-part h1 {
+    font-size: 50px;
+}
+
+.details-card .item-details-part h1.category {
+    font-size: 40px;
+}
+
+
+.details-card .item-details-part h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.details-card .item-details-part .btns {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.details-card .item-details-part .btns button {
+    background-color: #EDEDED;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.details-card .item-details-part .btns button.add-to-cart-btn {
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.details-card .item-details-part .btns button i {
+    background-color: #6C6C6C;
+    border-radius: 100%;
+    font-size: 15px;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-card .item-details-part p {
+    color: #777;
+}
+
+.similar-products-text {
+    text-align: center;
+    font-size: 35px;
+}
+
+.similar-products {
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
