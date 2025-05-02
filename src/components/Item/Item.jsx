@@ -8,7 +8,7 @@ export default function Item({ products }) {
             {products.map((item, index) => (
                 <Link key={index} className='link' to={`/cards/${item.name}`}>
                     <div className="item" key={index}>
-                        <img src={`/src/assets/${item.name}.webp`} alt={`${item.name} image`} />
+                        <img src={`/public/${item.name}.webp`} alt={`${item.name} image`} />
                         <h2>{item.name}</h2>
                         <h2>{item.category}</h2>
                         <p><strong>{[...`$${item.price}`].join(' ')}</strong></p>
