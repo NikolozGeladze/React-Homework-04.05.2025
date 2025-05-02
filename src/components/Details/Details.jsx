@@ -12,7 +12,7 @@ export default function Details({ products }) {
                 {
                     products.filter(item => item.name === title).map((item, index) => (
                         <div key={index} className="details-card">
-                            <img src={`/src/assets/${encodeURIComponent(item.name)}.webp`} alt={`${item.name} image`} />
+                            <img src={`/src/assets/${item.name}.webp`} alt={`${item.name} image`} />
                             <div className="item-details-part">
                                 <h1>{item.name}</h1>
                                 <h1 className='category'>{item.category}</h1>
