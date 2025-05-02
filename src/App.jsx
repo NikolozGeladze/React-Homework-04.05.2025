@@ -5,8 +5,6 @@ import products from './data.js'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  console.log(products)
-
   return (
     <>
       <h1 className='title'>Lego Minecraft<sup>®</sup></h1>
