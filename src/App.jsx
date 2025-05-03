@@ -9,12 +9,10 @@ function App() {
     <>
       <h1 className='title'>Lego Minecraft<sup>®</sup></h1>
       <div className="item-container">
-        <Router>
           <Routes>
             <Route path='/' element={<Item products={products} />} />
             <Route path='/cards/:title' element={<Details products={products}></Details>}></Route>
           </Routes>
-        </Router>
       </div>
     </>
   )
